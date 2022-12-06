@@ -45,6 +45,13 @@ create table pedidos (
     foreign key (status_id) references status (id)
     );
     
+create table users (
+    id int not null primary key auto_increment,
+    username varchar(50) not null unique,
+    password varchar(255) not null,
+    created_at datetime default current_timestamp
+);
+
 #inserts
 
 insert into status (tipo) values ("No forno!");

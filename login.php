@@ -61,7 +61,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             
-                            header("location: index.php");
+                            header("location: home.php");
                         } else{
                             
                             $login_err = "Nome de usuário ou senha inválidos.";
@@ -119,6 +119,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <input type="submit" class="btn btn-primary" value="Entrar">
                 </div>
                 <p>Ainda não tem uma conta? <a href="index.php">Entre aqui</a>.</p>
+                <p>É um dos administradores dos pedidos da Pizzaria? <a href="loginadm.php">Entre aqui</a>.</p>
             </form>
         </div>
     </div>

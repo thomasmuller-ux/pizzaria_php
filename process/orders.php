@@ -130,7 +130,7 @@
     }
 
     
-    header("Location: ../dashboard.php");
+    header("Location: ../pedidos.php");
 
   }
 

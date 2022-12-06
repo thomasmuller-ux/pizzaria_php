@@ -182,6 +182,6 @@ $method = $_SERVER["REQUEST_METHOD"];
         <h4>Desenvolvido por -> Lívia Thomasi Pinto</h4>
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
